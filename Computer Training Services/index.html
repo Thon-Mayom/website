@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://use.fontawesome.com/43a032c80c.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-104689093-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <title>Wondrous</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Section 1 includes the Logo, Slogan and Horizontal Line Menu-->
+        <div class="section1">
+            <!--Hamburger Modal Menu
+            <!-- Trigger the modal with a button -->
+            <div class="menulines">
+                <button type="button" class="btn" data-toggle="modal" data-target="#menuModal"><i class="fa fa-bars fa-lg" aria-hidden="true" ></i></button>
+                <!-- Modal -->
+                <div id="menuModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Courses</h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li><a href="#">Computer Repair</a></li>
+					
+                                    <li><a href="#">Microsoft Office</a></li>
+                                    <li><a href="#">Accounting Packages</a></li>
+									<li><a href="#">Children Training And Gamimg</a></li>
+									
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="assets/logoBig.png" alt="Company Logo">
+                <p>Wondrous Computer training service  <br /> is the worlds' best <span class="boldSlogan">traing center service</span></p>
+            </div>
+        </div>
+        <!-- Section 2 includes the games, training, facilitation and class Clickable Menu-->
+        <div class="section2">
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="happyhour">summer short course </p>
+                    <p class="partytime">Online training</p>
+                </div>
+
+                <div class="col-md-3">
+                    <p id="breakfast">Facilitation</p>
+                </div>
+                <div class="col-md-3">
+                    <p id="lunch">Class training</p>
+                </div>
+                <div class="col-md-3 ">
+                    <p id="dinner">children training and Gaming</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Section 3 includes information on Fast food and Drink items with photos-->
+        <div class="section3">
+            <!--Fast food row-->
+            <div class="row ImagesRow">
+                <div class="col-md-6  ImagesPhotos">
+                    <img src="assets/image1.jpg" alt="Photo of Images"><br/>
+                    <img src="assets/image2.jpg" alt="Photo of Images">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="fastFood">
+                        <h3>Web programming</h3>
+                        <h4>We love programming and Designing of systems.</h4>
+                        <p>we are entity providing IT Training in any Information and Communication Technology (ICT) related subject is referred as IT Training.
+
+With a view to enhance the competitiveness of IT Industry globally and providing quality IT Training , to satistify the need to outline the minimum acceptable standards and to certify eligible students to competite internationally . Wondrous computer training service was  formed to standardisation in the planning, acquisition, implementation, delivery, support and maintenance of Information technology equipment and services.
+
+Certification is granted to students as  evidence complete conformity to the prescribed standards. The preparation for adoption and adherence to the certification standards by the Students concerned involves understanding the requirements, defining processes, its implementation and sustenance.</p>
+                        <button type="button" name="button">View Gallery &rarr;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Drink Information Row-->
+            <div class="row drinksInfoRow">
+                <div class="col-md-6 drinksInfo">
+
+                    <h3>Graphic Design and Video Editing</h3>
+                    <h4>We also produce quality Videos for functions.</h4>
+                    <p>we are entity providing IT Training in any Information and Communication Technology (ICT) related subject is referred as IT Training.
+
+With a view to enhance the competitiveness of IT Industry globally and providing quality IT Training , to satistify the need to outline the minimum acceptable standards and to certify eligible students to competite internationally . Wondrous computer training service was  formed to standardisation in the planning, acquisition, implementation, delivery, support and maintenance of Information technology equipment and services.
+
+Certification is granted to students as  evidence complete conformity to the prescribed standards. The preparation for adoption and adherence to the certification standards by the Students concerned involves understanding the requirements, defining processes, its implementation and sustenance.</p>
+                    <button type="button" name="button">View Gallery &rarr;</button>
+                </div>
+
+                <div class="col-md-6 drinksInfoPhotos">
+                    <img src="assets/lab1.jpg" alt="Photo of lab1">
+                    <img src="assets/lab2.jpg" alt="Photo of lab2" class="drinksInfoPhoto2">
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Section 4 includes navigation tabs for various menu items each with image carousels-->
+        <div class="section4">
+            <!-- Tab Navigation List-->
+            <div class="nav-list">
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active"><a data-toggle="tab" href="#Accounting">Accounting packages</a></li>
+                    <li><a data-toggle="tab" href="#Accounting">Computer Repair services</a></li>
+                    <li><a data-toggle="tab" href="#chicken">Children training & Gaming</a></li>
+                    <li><a data-toggle="tab" href="#Accounting">Microsoft Office</a></li>
+                </ul>
+                <!-- Tab Content includes four carousels for the four tabs-->
+                <div class="tab-content">
+                    <!-- Content for Fast Food Tab containing it's carousel-->
+                    <div id="Accounting" class="tab-pane fade in active">
+                        <div id="AccountingCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#AccountingCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#AccountingCarousel" data-slide-to="1" class="active"></li>
+                                <li data-target="#AccountingCarousel" data-slide-to="2" class="active"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/Images/comp1.jpg" alt="comp1">
+                                </div>
+                                <div class="item active ">
+                                    <img src="assets/Images/training.jpg" alt="training">
+                                </div>
+                                <div class="item active">
+                                    <img src="assets/Images/comp2.jpg" alt="comp2">
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#fastFoodCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#fastFoodCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Content for Drinks Tab containing it's carousel-->
+                    <div id="drinks" class="tab-pane fade ">
+                        <div id="drinksCarousel" class="carousel" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#drinksCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#drinksCarousel" data-slide-to="1" class="active"></li>
+                                <li data-target="#drinksCarousel" data-slide-to="2" class="active"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/Images/training.jpg" alt="training">
+                                </div>
+                                <div class="item active ">
+                                    <img src="assets/Images/comp1.jpg" alt="comp1">
+                                </div>
+                                <div class="item active">
+                                    <img src="assets/Images/comp2.jpg" alt="comp2">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#drinksCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#drinksCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Content for the Chicken Tab containing it's carousel-->
+                    <div id="chicken" class="tab-pane fade ">
+                        <div id="chickenCarousel" class="carousel" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#chickenCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#chickenCarousel" data-slide-to="1" class="active"></li>
+                                <li data-target="#chickenCarousel" data-slide-to="2" class="active"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/Images/comp2.jpg" alt="comp2">
+                                </div>
+                                <div class="item active ">
+                                    <img src="assets/Images/training.jpg" alt="training">
+                                </div>
+                                <div class="item active">
+                                    <img src="assets/Images/comp1.jpg" alt="comp1">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#chickenCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#chickenCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Content for the Rice Tab containing it's carousel-->
+                    <div id="rice" class="tab-pane fade ">
+                        <div id="riceCarousel" class="carousel" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#riceCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#riceCarousel" data-slide-to="1" class="active"></li>
+                                <li data-target="#riceCarousel" data-slide-to="2" class="active"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/Images/comp1.jpg" alt="comp2">
+                                </div>
+                                <div class="item active ">
+                                    <img src="assets/Images/training.jpg" alt="training">
+                                </div>
+                                <div class="item active">
+                                    <img src="assets/Images/comp2.jpg" alt="comp2">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#riceCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#riceCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section 5 includes testimonials from customers as a slideshow and information about the menu-->
+        <div class="section5">
+            <div class="row">
+                <div class="col-md-8 customers">
+                    <h4>Our Trainer</h4>
+                    <div id="testimonials" class="carousel" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonials" data-slide-to="1"></li>
+                            <li data-target="#testimonials" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <h5>KYAMAKYA ALEX </h5>
+                                <p>The Skillfull trainer within a give set of Framework for the Information Technology , a model for describing and managing competencies for ICT professionals</p>
+                                <img src="assets/customers/p2" alt="Customer 1">
+                            </div>
+                            <div class="item"> 
+                                <h5>THON MAYOM GAI </h5>
+                                <p>The Skillfull trainer within a give set of Framework for the Information Technology , a model for describing and managing competencies for ICT professionals</p>
+                                <img src="assets/customers/p1.jpg" alt="Customer 2">
+                           </div>
+                            <div class="item ">
+                                <h5>DUOP TOT PUOK CHANG</h5>
+                                <p>The Skillfull trainer within a give set of Framework for the Information Technology , a model for describing and managing competencies for ICT professionals</p>
+                                <img src="assets/customers/p3" alt="Customer 3">
+                            </div>
+							
+							 <div class="item ">
+                                <h5>LOKI EMMAUEL  </h5>
+                                <p>The Skillfull trainer within a give set of Framework for the Information Technology , a model for describing and managing competencies for ICT professionals</p>
+                                <img src="assets/customers/p4" alt="Customer 2">
+                            </div>
+                            <div class="item ">
+                                <h5>GANZA NDAHIRIWE ALEX </h5>
+                                <p>The Skillfull trainer within a give set of Framework for the Information Technology , a model for describing and managing competencies for ICT professionals</p>
+                                <img src="assets/customers/p5" alt="Customer 3">
+                            </div>
+							<div class="item ">
+                                <h5>NERVA NIKUZE </h5>
+                                <p>The Skillfull trainer within a give set of Framework for the Information Technology , a model for describing and managing competencies for ICT professionals</p>
+                                <img src="assets/customers/p6" alt="Customer 3">
+                            </div>
+                        </div>
+						 
+					
+
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#testimonials" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#testimonials" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 about">
+                    <h4>About Wondrous</h4>
+                    <p>All the IT Training of wondrous Computer training services  are classified under the Skillfull trainer within a give set of Framework for the Information Technology , a model for describing and managing competencies for ICT professionals.</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- Section 6 includes an email entry form for a subscription list-->
+        <div class="section6">
+            <p> Get our daily update via email</p>
+            <div class="form-group">
+                <form id="subscribtionList">
+                    <div class="rows">
+                        <div class="col-md-8">
+                            <input type="email" id="emailaddress" class="form-control" placeholder="Your email">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="button" value="Subscribe" id="subscribe" class="form-control">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Section 7 includes the website footer-->
+        <div class="section7">
+            <div class="footer">
+                <h5>
+                    <img src="assets/footerlogos/logo_white.png" alt="White Logo">WONDROUS COMPUTER TRAINING SERVICE
+                </h5>
+                <p>Contacts us on </p>
+                <i class="fa fa-facebook-square fa-lg" href="facebook.com" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                
+                <p id="copyright">Wondrous computer training services,&copy; Copyright 2021 
+</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
